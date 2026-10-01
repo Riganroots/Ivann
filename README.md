@@ -1,6 +1,11 @@
-# Ivaan Memory Book — V2
-Open index.html to preview.
+# Vanja shree Story
 
-GitHub Pages: upload index.html + assets folder to a repository, then Settings → Pages → Deploy from main/root.
+A living memory book for Ivaan Poudel, with Nepali writing, 15 family photos, a filterable gallery, a photo viewer and slideshow, and a letter from Mama.
 
-This version is designed as a living memory book. Add future photos to assets and duplicate a card/section in index.html.
+Public website: https://riganroots.github.io/Ivann/
+
+GitHub Pages serves the main branch from the repository root. No build or dependency installation is required. All photo, script, stylesheet, and font paths are relative so they work under /Ivann/. The .nojekyll file preserves the static site unchanged.
+
+All photos and fonts are stored locally. No analytics, cookies, or third-party requests are used. Noto fonts are covered by the SIL Open Font License in assets/fonts/OFL.txt.
+
+To add a memory, add full and small WebP variants in assets and append the metadata to app.js.
